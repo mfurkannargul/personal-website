@@ -1,0 +1,67 @@
+.cvDesc {
+    font-style: italic;
+    justify-content: center;
+}
+
+.social-icon {
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+}
+
+.linkedin {
+    color: rgb(30, 108, 209);
+}
+
+.github {
+    color: rgb(255, 255, 255);
+}
+
+.youtube {
+    color: rgb(255, 0, 0);
+}
+
+.instagram {
+    color: rgb(233, 0, 97);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.footer-button {
+    color: white;
+}
+
+.container-about {
+margin-left: 100px;
+margin-right: 100px;
+height: 150vh;
+display: grid;
+gap: 2rem;
+grid-template-columns: 1fr 2fr ;
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+.about-writing-block {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+align-items: top;
+justify-content: left;
+}
+
+.about-writing-block2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+    }
